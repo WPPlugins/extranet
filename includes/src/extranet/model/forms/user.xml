@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<field name="user[_extranet_enabled]" id="_extranet_enabled" type="list" default="0" class="pure-u-1 pure-u-md-1-4" label="Allowed to Extranet" description="Choose if this user can access the extranet area in the front-end.">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</field>
+	<field name="user[_extranet_user_homepage]" id="_extranet_user_homepage" type="textarea" default="" class="pure-u-1 pure-u-md-2-4" label="Home Page Message" description="This messsage will appear on the plugin home page." />
+</form>
+

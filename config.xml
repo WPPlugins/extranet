@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="general">
+		<field name="settings[default_storage]" id="default_storage" type="text" default="" class="pure-u-1" label="Default storage path"
+			description="Full path to the location on server for the storage folder." />
+	</fieldset>
+
+	<fieldset name="receive notifications">
+		<field name="settings[notify_me_email_address]" id="notify_me_email_address" type="text" default="" class="pure-u-1" label="Notification email address"
+			description="Type your email address to receive notifications when a user will do any of the folowing actions. Leave this emtpy if you don't want to receive any notification." />
+		<field name="settings[notify_me_for]" id="notify_me_for" type="checkboxes" default="" class="" label="Receive notification when a user"
+			description="Select which actions you would like to be emailed.">
+			<option value="download">downloads a file</option>
+			<option value="upload">uploads a new file</option>
+			<option value="delete">deletes a file</option>
+			<option value="mkdir">creates a new folder</option>
+			<option value="rmdir">deletes a folder</option>
+		</field>
+	</fieldset>
+
+	<fieldset name="send notifications">
+		<field name="settings[send_notifications]" id="send_notifications" type="list" default="0" class="pure-select pure-u-1" label="Send notifications to users" description="If the user has download permissions for a folder, and you as administrator add new files into that folder the user will receive an email about this.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="settings[send_notifications_subject]" id="send_notifications_subject" type="text" default="" class="pure-u-1" label="Notification (email) subject"
+			description="What your users will see as the subject of the email notification." />
+		<field name="settings[send_notifications_message]" id="send_notifications_message" type="textarea" default="" class="pure-u-1" label="Notification (email) body" description="What your users will see as the body of the email notification." />
+	</fieldset>
+
+	<fieldset name="users">
+		<field name="settings[user_homepage]" id="user_homepage" type="list" default="welcome" class="pure-select pure-u-1" label="Home Page Items" description="As default, the first page in the front-end will contain the user homepage message.">
+			<option value="welcome">User welcome text</option>
+			<option value="favorites">Favorite items</option>
+		</field>
+		<field name="settings[restrict_upload]" id="restrict_upload" type="text" default="php,html,asp" class="pure-u-1" label="Restrict file types"
+			description="This restriction applies only to users who are allowed to upload in the front-end area. You as administrator don't have any restriction. Leave empty if you want your users to upload all types of files." />
+		<field name="settings[allow_upload]" id="allow_upload" type="text" default="" class="pure-u-1" label="Allow file extensions"
+			description="This restriction applies only to users who are allowed to upload in the front-end area. You as administrator don't have any restriction. Leave empty if you want to allow users to upload any file type, with exception of those defined in the option above. Must be a comma separated list, for ex: txt,pdf,jpg,png,gif" />
+		<field name="settings[allow_user_sharing]" id="allow_user_sharing" type="list" default="0" class="pure-select pure-u-1" label="Enable user file sharing" description="This option applies only to your users. If you enable this option, any user can generate a download link that can be used to download a file by anyone with the link. When you disable this option, no sharing link will function anymore.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="settings[sharing_timeframe]" id="sharing_timeframe" type="text" default="1" class="pure-u-1" label="Shared link availability (days)"
+			description="This option applies only to front-end users. If sharing is enabled, a link will be available for the period you define here." />
+		<field name="settings[view_file_types]" id="view_file_types" type="text" default="" class="pure-u-1" label="File types available to view online"
+			description="Insert a list with the file types available to view online. This applies only to users with View permission. Please note that online view reffers to opening the file in the browser, instead of forcing the download. Must be a comma separated list, for ex: txt,pdf,jpg,png,gif" />
+	</fieldset>
+
+	<fieldset name="front-end">
+		<field name="settings[folder_order]" id="folder_order" type="list" default="name" class="pure-select pure-u-1" label="Order folders by" description="As default, the ordering is done by folder name.">
+			<option value="name">Folder name</option>
+			<option value="creation">Folder creation date</option>
+		</field>
+		<field name="settings[folder_order_dir]" id="folder_order_dir" type="list" default="ASC" class="pure-select pure-u-1" label="Folder ordering direction" description="As default, the ordering is done ascending.">
+			<option value="ASC">Ascending</option>
+			<option value="DESC">Descending</option>
+		</field>
+		<field name="settings[file_order]" id="file_order" type="list" default="name" class="pure-select pure-u-1" label="Order files by" description="As default, the ordering is done by file name.">
+			<option value="name">File name</option>
+			<option value="creation">File creation date</option>
+			<option value="size">File size</option>
+		</field>
+		<field name="settings[file_order_dir]" id="file_order_dir" type="list" default="ASC" class="pure-select pure-u-1" label="File ordering direction" description="As default, the ordering is done ascending.">
+			<option value="ASC">Ascending</option>
+			<option value="DESC">Descending</option>
+		</field>
+	</fieldset>
+</form>
+

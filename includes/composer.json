@@ -1,0 +1,19 @@
+{
+	"minimum-stability": "dev",
+	"prefer-stable": false,
+    "require": {
+        "joomla/router": "~1.0",
+        "joomla/view": "~1.0",
+        "joomla/filesystem": "~1.0",
+        "joomla/form":"@dev"
+    },
+	"autoload": {
+		"psr-4": {
+			"Extranet\\Controller\\": "src/extranet/controller",
+			"Extranet\\View\\": "src/extranet/view",
+			"Extranet\\Model\\": "src/extranet/model",
+			"Extranet\\Helper\\": "src/extranet/helper",
+			"Extranet\\": "src/extranet"
+		}
+    }
+}

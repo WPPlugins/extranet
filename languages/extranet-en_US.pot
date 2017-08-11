@@ -1,0 +1,415 @@
+# Copyright (C) 2017 Ionut Lupu
+# This file is distributed under the same license as the Extranet package.
+
+#. #-#-#-#-#  extranet-en_US.pot (Extranet 1.0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-extranet-admin.php:77 admin/class-extranet-admin.php:78
+msgid "Extranet"
+msgstr ""
+
+#: admin/class-extranet-admin.php:85 admin/partials/folders/default.php:12
+#: includes/src/extranet/helper/ExtranetMenu.php:24
+msgid "Folders"
+msgstr ""
+
+#: admin/class-extranet-admin.php:86 admin/partials/users/default.php:10
+msgid "Users"
+msgstr ""
+
+#: admin/class-extranet-admin.php:87 admin/partials/settings/default.php:11
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/folders/default.php:19 admin/partials/users/user.php:15
+#: public/partials/folders.php:51
+msgid "Go back"
+msgstr ""
+
+#: admin/partials/folders/default.php:22 public/partials/folders.php:20
+msgid "Create new folder"
+msgstr ""
+
+#: admin/partials/folders/default.php:23 admin/partials/folders/default.php:153
+#: public/partials/folders.php:17 public/partials/folders.php:141
+msgid "Add files"
+msgstr ""
+
+#: admin/partials/folders/default.php:31 public/partials/folders.php:29
+msgid "Add files into the current directory"
+msgstr ""
+
+#: admin/partials/folders/default.php:32 public/partials/folders.php:30
+msgid "Drag your files  here or click."
+msgstr ""
+
+#: admin/partials/folders/default.php:40
+#: admin/partials/folders/permissions.php:31 public/partials/folders.php:38
+msgid "Location"
+msgstr ""
+
+#: admin/partials/folders/default.php:41
+#: admin/partials/folders/permissions.php:32 public/partials/folders.php:39
+msgid "Root"
+msgstr ""
+
+#: admin/partials/folders/default.php:61
+msgid "Rename selected"
+msgstr ""
+
+#: admin/partials/folders/default.php:71 admin/partials/folders/default.php:107
+msgid "Rename"
+msgstr ""
+
+#: admin/partials/folders/default.php:72 admin/partials/folders/default.php:91
+#: public/partials/folders.php:75
+msgid "Cancel"
+msgstr ""
+
+#: admin/partials/folders/default.php:81 public/partials/folders.php:66
+msgid "Create new folder at existing location"
+msgstr ""
+
+#: admin/partials/folders/default.php:82 public/partials/folders.php:67
+msgid "Give it a name..."
+msgstr ""
+
+#: admin/partials/folders/default.php:90 public/partials/folders.php:74
+msgid "Create"
+msgstr ""
+
+#: admin/partials/folders/default.php:105
+#: admin/partials/folders/permissions.php:73 admin/partials/users/user.php:89
+#: public/partials/folders.php:113
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/folders/default.php:106
+#: admin/partials/folders/permissions.php:69 admin/partials/users/user.php:83
+msgid "Permissions"
+msgstr ""
+
+#: admin/partials/folders/default.php:135
+msgid ""
+"Attention! This action will remove all permissions corresponding to this "
+"folder and all sub-folders."
+msgstr ""
+
+#: admin/partials/folders/default.php:153 public/partials/folders.php:141
+msgid "Close"
+msgstr ""
+
+#: admin/partials/folders/default.php:200 public/partials/folders.php:261
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:10
+msgid "Folder permissions"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:14
+msgid ""
+"These permissions must be set to allow access to specific users to your "
+"folders. If user status is <span class=\"allowed\">Allowed</span>, the user "
+"will be able to execute the actions selected here. If user status is <span "
+"class=\"blocked\">Blocked</span>, the user cannot execute any of these "
+"actions."
+msgstr ""
+
+#: admin/partials/folders/permissions.php:15
+msgid ""
+"Aggregated permissions = this folder permissions combined with parent folder "
+"permissions, if parent folder permissions are recursive.<br/>In case of "
+"recursive permissions, the permissions will be recursively applied to all "
+"other folders that are anywhere within the folder. That is why aggregated "
+"permissions might have different values."
+msgstr ""
+
+#: admin/partials/folders/permissions.php:23
+msgid "Back to folders view"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:47
+#: admin/partials/users/default.php:17
+msgid "Filter by username or name"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:48
+#: admin/partials/users/default.php:18
+msgid "Filter"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:49
+#: admin/partials/users/default.php:19
+msgid "Clear"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:66
+#: admin/partials/users/default.php:36 admin/partials/users/user.php:24
+#: public/partials/default.php:6
+msgid "Username"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:67
+msgid "Full Name"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:68 admin/partials/users/user.php:84
+msgid "Aggregated permissions"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:70 admin/partials/users/user.php:86
+msgid "List"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:71 admin/partials/users/user.php:87
+#: public/partials/folders.php:114
+msgid "Download"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:72 admin/partials/users/user.php:88
+msgid "Upload"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:74 admin/partials/users/user.php:90
+msgid "Create folder"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:75 admin/partials/users/user.php:91
+msgid "Remove folder"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:76 admin/partials/users/user.php:92
+msgid "Recursive"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:77
+#: admin/partials/users/default.php:39 admin/partials/users/user.php:93
+msgid "Allowed"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:78
+#: admin/partials/users/default.php:40 admin/partials/users/user.php:94
+msgid "Blocked"
+msgstr ""
+
+#: admin/partials/folders/permissions.php:79 admin/partials/users/user.php:95
+#: public/partials/folders.php:116
+msgid "View"
+msgstr ""
+
+#: admin/partials/settings/default.php:16
+msgid "Save settings"
+msgstr ""
+
+#: admin/partials/users/default.php:37
+msgid "Name"
+msgstr ""
+
+#: admin/partials/users/default.php:38 admin/partials/users/user.php:33
+msgid "Email"
+msgstr ""
+
+#: admin/partials/users/default.php:41
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/users/user.php:9
+msgid "Edit User"
+msgstr ""
+
+#: admin/partials/users/user.php:16
+msgid "Save"
+msgstr ""
+
+#: admin/partials/users/user.php:85
+msgid "Back"
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfileController.php:62
+msgid "Invalid file path"
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfileController.php:67
+msgid "Failed to rename file."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfileController.php:86
+msgid "Failed to delete file."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfileController.php:93
+#: includes/src/extranet/controller/ExtranetFileController.php:216
+#: includes/src/extranet/controller/ExtranetFoldersController.php:165
+msgid "Something went wrong. Failed to delete file."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:69
+msgid "Invalid folder path."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:75
+msgid "A folder with this name already exists."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:87
+msgid "Failed to rename folder."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:127
+#: includes/src/extranet/controller/ExtranetFoldersController.php:86
+msgid "This folder already exists. Please use a different name."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:133
+#: includes/src/extranet/controller/ExtranetFoldersController.php:92
+msgid "Unable to create this folder."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:158
+msgid "Failed to delete folder."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:173
+msgid "Something went wrong. Failed to delete folder."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:229
+#: includes/src/extranet/controller/ExtranetFileController.php:88
+msgid "Wrong location."
+msgstr ""
+
+#: includes/src/extranet/controller/AdminfolderController.php:252
+msgid "Some files could not be uploaded."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:83
+#: includes/src/extranet/controller/ExtranetFileController.php:192
+#: includes/src/extranet/controller/ExtranetFileController.php:308
+#: includes/src/extranet/controller/ExtranetFoldersController.php:80
+#: includes/src/extranet/controller/ExtranetFoldersController.php:143
+msgid "Sorry. You do not have permission to do this operation."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:102
+msgid ""
+"Some files could not be uploaded. Possible reason: invalid file extension."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:118
+msgid "Some files could not be uploaded. Possible reason: file already exists."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:198
+#: includes/src/extranet/controller/ExtranetFileController.php:263
+#: includes/src/extranet/controller/ExtranetFileController.php:314
+#: includes/src/extranet/controller/ExtranetFoldersController.php:149
+msgid "Wrong file or parent location."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:204
+msgid "File does not exist."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:210
+msgid "Directory parent does not exist."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:237
+msgid "Unable to mark as favorite."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFileController.php:267
+msgid "File added to your list of favorites."
+msgstr ""
+
+#: includes/src/extranet/controller/ExtranetFoldersController.php:155
+msgid "Selected folder or parent directory does not exist."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetMenu.php:23
+msgid "Home"
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetMenu.php:25
+#: public/partials/dashboard.php:26
+msgid "Favorites"
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetMenu.php:26
+msgid "Logout"
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:31
+msgid "New download event"
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:32
+msgid "File downloaded."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:38
+msgid "New upload event"
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:39
+msgid "File uploaded."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:45
+msgid "New file has been deleted."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:46
+msgid "File deleted."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:53
+msgid "New folder has been created."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:54
+msgid "Folder created."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:61
+msgid "New folder has been removed."
+msgstr ""
+
+#: includes/src/extranet/helper/ExtranetObserverEmail.php:62
+msgid "Removed folder."
+msgstr ""
+
+#: public/partials/default.php:7
+msgid "Password"
+msgstr ""
+
+#: public/partials/default.php:10
+msgid "Sign in"
+msgstr ""
+
+#: public/partials/folders.php:115
+msgid "Save to favorites"
+msgstr ""
+
+#: public/partials/folders.php:117
+msgid "Share download"
+msgstr ""
+
+#: public/partials/folders.php:118
+msgid "Copy the link from the input."
+msgstr ""
+
+#. #-#-#-#-#  extranet-en_US.pot (Extranet 1.0.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  extranet-en_US.pot (Extranet 1.0.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://ionutlupu.me"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create a secure download area/wordpress extranet/client area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ionut Lupu"
+msgstr ""

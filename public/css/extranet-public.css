@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.pure-menu.pure-menu-horizontal.extranetmenu{background-color:#fff;}
+.extranetmenu li{border-bottom: 1px solid #fff;}
+.extranetmenu li.pure-menu-selected{border-bottom: 1px solid #EF845A;}
+.extranetmenu li.pure-menu-item:hover{border-bottom: 1px solid #EF845A;background-color: none;}
+.extranetmenu .pure-menu-link{font-size: 14px;line-height: 35px;}
+.extranetmenu a.pure-menu-link{text-decoration: none;border:none;color:#5D5D5D;}
+.extranetmenu a.pure-menu-link:hover{background-color: none;}
+.line .small{font-size: 12px;}
+.line .small i{font-size: 20px;}
+.line, .header {line-height: 26px;font-size: 14px;padding: 15px 5px;}
+.line1{background:#F9F9F9;}
+.line:hover{background:#eee;cursor:pointer;}
+.pure-container{background: #fff;padding:5px;margin-top:10px;}
+.pure-container a{text-decoration: none;}
+
+
+.header{border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.breadcrumb{background:#F9F9F9;padding:5px;margin-top:10px;font-size: 12px;}
+.more-actions{position: absolute;background: #fff;padding: 5px;box-shadow: 3px 3px 3px #eee;border:1px solid #ddd;}
+.more-actions:before{content: '';width: 6px;height: 6px;background: #fff;border-left: 1px solid #ddd;display: block;position: absolute;top: -4px;left:5px;transform: rotate(45deg);border-top: 1px solid #ddd;}
+.more-actions span{display: block;padding: 3px;}
+.more-actions span:hover{background-color: #eee;}
+.hidden{display:none;}.visible{display:block;}
+.navigation,.breadcrumb,#error-area{margin:10px 0px;}
+.small{font-size: 12px}
+.small p{line-height: 14px;margin: 0;}
+#uf1{cursor: pointer;border:2px dashed #eee;text-align: center}
+#uploadarea h4{margin: 0;}
+.progress{margin: 10px 0;}
+.meter{background: #005fcb;display: block;padding: 2px;}
+#error-area{padding:15px;color: #a94442;background-color: #f2dede;border-color: #ebccd1;font-size: 16px;}
+#renamePopup, #createNewFolderPopup {left: 15%;width: 70%;position: fixed;display: block;background: #fefefe;height: auto;text-align: center;box-shadow: 1px 1px 5px #ccc;z-index: 999;top: 50px;overflow: hidden;padding: 10px;}

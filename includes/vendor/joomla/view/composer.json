@@ -1,0 +1,36 @@
+{
+    "name": "joomla/view",
+    "type": "joomla-package",
+    "description": "Joomla View Package",
+    "keywords": ["joomla", "framework", "view"],
+    "homepage": "https://github.com/joomla-framework/view",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": "^5.3.10|~7.0",
+        "joomla/model": "~1.0"
+    },
+    "require-dev": {
+        "joomla/filesystem": "~1.0",
+        "joomla/test": "~1.0",
+        "phpunit/phpunit": "~4.8|~5.0",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "suggest": {
+        "joomla/filesystem": "To use the AbstractHtmlView, install joomla/filesystem"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joomla\\View\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joomla\\View\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
